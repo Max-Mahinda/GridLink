@@ -10,6 +10,17 @@
   800,
   900" rel="stylesheet">"
 );
+.mylogo {
+  position: absolute;
+  top: 10px; /* Adjust the top distance as needed */
+  left: 10px; /* Adjust the left distance as needed */
+}
+
+/* Additional styles for logo image (adjust as needed) */
+.mylogo img {
+  width: 180px; /* Adjust the width as needed */
+  height: auto;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
