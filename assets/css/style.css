@@ -212,15 +212,15 @@ a.menu-link {
 
 @media screen and (max-width: 1050px) {
   .main-header .logo {
-    padding-left: 30px !important;
+    padding-left: 30px;
   }
 
   .main-menu {
-    padding-right: 30px !important;
+    padding-right: 30px;
   }
 
   .main-menu li {
-    margin-left: 5px !important;
+    margin-left: 5px;
   }
 }
 
@@ -688,7 +688,7 @@ section.why-us {
   }
 }
 
-/* COMING SOON */
+
 
 section.coming-soon {
   background-image: url(../images/link.jpg);
@@ -997,7 +997,7 @@ section.video {
   background-image: url(../images/video-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #18069e;
+  background-color: #120670;
   padding: 120px 0px;
 }
 
