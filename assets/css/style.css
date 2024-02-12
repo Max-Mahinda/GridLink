@@ -12,13 +12,13 @@
 );
 .mylogo {
   position: absolute;
-  top: 10px; /* Adjust the top distance as needed */
-  left: 10px; /* Adjust the left distance as needed */
+  top: 10px; 
+  left: 10px; 
 }
 
-/* Additional styles for logo image (adjust as needed) */
+
 .mylogo img {
-  width: 180px; /* Adjust the width as needed */
+  width: 180px;
   height: auto;
 }
 @keyframes popUpAnimation {
@@ -38,15 +38,15 @@
 
 .pop-up {
   display: inline-flex;
-  animation: popUpAnimation 12s infinite; /* Adjust the duration based on your preference */
+  animation: popUpAnimation 12s infinite;
 }
 
 .pop-up:nth-child(2) {
-  animation-delay: 2s; /* Adjust the delay between animations based on your preference */
+  animation-delay: 2s; 
 }
 
 .pop-up:nth-child(3) {
-  animation-delay: 6s; /* Adjust the delay between animations based on your preference */
+  animation-delay: 6s; 
 }
 
 body {
@@ -142,7 +142,7 @@ a.menu-link {
     display: block;
     font-size: 100px;
     color: #fff;
-    padding-right: 30px;
+    padding-right: 50px;
     padding-top: 15px;
   }
 
@@ -178,7 +178,7 @@ a.menu-link {
 
   nav[role="navigation"] li a {
     display: block;
-    padding: 15px 0px;
+    padding: 35px 0px;
     border-bottom: 1px solid rgba(20, 9, 151, 0.756);
     text-align: center;
     color: #fff;
@@ -359,12 +359,11 @@ a.menu-link {
 }
 
 #bg-video::-webkit-media-controls {
-  display: none !important;
+  display: none;
 }
 
 .video-overlay {
   position: absolute;
-  background-color: rgb(4, 4, 92);
   top: 0;
   left: 0;
   bottom: 7px;
